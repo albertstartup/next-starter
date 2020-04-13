@@ -1,7 +1,13 @@
+import styled from 'styled-components'
+
 export default function Index() {
   return (
     <div>
-      <p>Hello Next.js</p>
+      <Title>Hello Next.js</Title>
     </div>
   );
 }
+
+const Title = styled.h1`
+  color: red;
+`
